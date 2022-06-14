@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.2385" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/drawable-v24/ic_book_foreground.xml" value="0.2385" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/drawable-v24/ic_book_foreground2.xml" value="0.2385" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/drawable/bg.xml" value="0.2735" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/drawable/ic_baseline_save_24.xml" value="0.103" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/drawable/ic_book_foreground.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/drawable/ic_book_foreground2.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2385" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/drawable/ic_launcher_foreground3.xml" value="0.2385" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/layout/actdiary.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/layout/bg.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/layout/notepadxml.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc/app/src/main/res/layout/widget_layout.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2 - Copy - Copy/app/src/main/res/layout/activity_dairy.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2 - Copy - Copy/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2 - Copy - Copy/app/src/main/res/layout/activity_saved_notes.xml" value="0.2667572463768116" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2 - Copy - Copy/app/src/main/res/layout/notepadxml.xml" value="0.2667572463768116" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2 - Copy - Copy/app/src/main/res/layout/rem_activity.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2 - Copy - Copy/app/src/main/res/layout/widget_layout.xml" value="0.2667572463768116" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2 - Copy - Copy/app/src/main/res/menu/menu_note.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2 - Copy - Copy/app/src/main/res/menu/menu_note2.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2 - Copy - Copy/app/src/main/res/menu/new_diary_activity_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2 - Copy - Copy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2775" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2 - Copy/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/drawable-xxhdpi/ic_baseline_add_24.xml" value="0.121" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/drawable-xxhdpi/ic_baseline_check_24.xml" value="0.121" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/layout/activity_dairy.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/layout/activity_saved_notes.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/layout/activity_write_diary.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/layout/custom_dialog_date_picker.xml" value="0.125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/layout/diary_entry_layout.xml" value="0.125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/layout/notepadxml.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/layout/widget_layout.xml" value="0.125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/menu/menu_note.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/abc2/app/src/main/res/menu/new_diary_activity_menu.xml" value="0.27291666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

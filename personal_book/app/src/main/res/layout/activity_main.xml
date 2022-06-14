@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg"
+    android:textAlignment="viewStart"
+    tools:context=".MainActivity">
+    <!-- android:background="#1fe0c3"-->
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_above="@+id/scrollView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.37"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        app:layout_constraintWidth_percent="0.85"
+        app:srcCompat="@drawable/logoimg4" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="314dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.55"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.812"
+        app:layout_constraintWidth_percent="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/notepad"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/olive"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_book_foreground" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    android:paddingLeft="70sp"
+                    android:paddingTop="15sp"
+
+                    android:text="NotePad"
+                    android:textAlignment="viewStart"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dairy"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/olivelight"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_launcher_foreground5" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="70sp"
+                    android:paddingTop="15sp"
+                    android:text="Dairy"
+                    android:textAlignment="viewStart"
+                    android:textColor="#ffffff"
+
+                    android:textSize="30sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <!--LinearLayout
+                android:id="@+id/todo"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:background="@color/olive"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_launcher_foreground3" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="70sp"
+                    android:paddingTop="15sp"
+                    android:text="To Do List"
+                    android:textAlignment="viewStart"
+                    android:textColor="#ffffff"
+
+                    android:textSize="30sp"
+                    android:textStyle="normal" />
+            </LinearLayout-->
+
+            <LinearLayout
+                android:id="@+id/remainder"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:background="@color/olive"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_launcher_foreground4" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="70sp"
+                    android:paddingTop="15sp"
+                    android:text="Remainder "
+                    android:textAlignment="viewStart"
+                    android:textColor="#ffffff"
+
+                    android:textSize="30sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <!--LinearLayout
+                android:id="@+id/streaks"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:background="@color/olive"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_launcher_foreground6" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="70sp"
+                    android:paddingTop="15sp"
+                    android:text="Maintain Streaks"
+                    android:textAlignment="viewStart"
+                    android:textColor="#ffffff"
+
+                    android:textSize="30sp"
+                    android:textStyle="normal" />
+            </LinearLayout-->
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="345dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="692dp"
+        android:text="GO GREEN"
+
+        android:textAlignment="center"
+        android:textColor="@color/olive"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

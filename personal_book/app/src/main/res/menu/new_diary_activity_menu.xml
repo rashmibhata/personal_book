@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/save_diary"
+        android:icon="@drawable/ic_baseline_check_24"
+        app:showAsAction="always"
+        android:title="Save">
+    </item>
+    <item
+        android:id="@+id/delete_diary"
+        app:showAsAction="ifRoom"
+        android:title="Delete"
+        android:icon="@drawable/ic_baseline_delete_forever_24">
+    </item>
+    <item
+        android:id="@+id/share_diary"
+        app:showAsAction="never"
+        android:title="Share via WhatsApp">
+    </item>
+</menu>
